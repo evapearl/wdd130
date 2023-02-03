@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Roboto&display=swap');
 #content {
     max-width:1600px;
     margin: 0 auto;
 }
 nav a {
     text-align: center;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -19,9 +21,12 @@ main section {
 }
 #background {
     height: 725px;
+    background-color: rgba(12, 227, 235, 0.7);
 }
 body {
     background-color:#4ea8de;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgba(12, 227, 235, 0.7);
@@ -33,21 +38,27 @@ nav a:hover {
 .book, .join {
     background-color:rgb(3, 8, 8) ;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .jion:hover {
     background-color: rgba(246, 252, 251, 0.932);
 }
-#background {
-    background-color: rgba(12, 227, 235, 0.7);
-}
 .msg {
     background-color: #4ea8de;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #4ea8de;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -60,4 +71,33 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+head, body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+.home-title {
+    font: size 2em;
+    margin-top: 50px;
+}
+.msg p {
+    font-size: 1.5em;
+    padding-bottom: 15px;
+}
+h2 {
+    margin: 0;
+}
+#logo link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.river-card, .camping-card, .rapids-cards {
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid white;
+}
+main section img{
+    box-sizing:border-box;
 }
