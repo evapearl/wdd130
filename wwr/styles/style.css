@@ -84,7 +84,7 @@ footer .social img{
 .river-card, .camping-card, .rapids-cards {
     margin: 200px 0;
 }
-.card-img{
+.card-img {
     border: 10px solid white;
     transition: transform .5s;
     box-shadow:  5px 5px 10px #6f7364;
@@ -121,6 +121,10 @@ nav {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+}
+.river-grid {
+    display: grid;
+    grid-template-columns:repeat(10, 1fr) ;
 }
 .card-img, .mountains {
     width: 100%;
@@ -196,3 +200,4 @@ nav {
     footer {
         margin-top: 25px;
     }
+    
