@@ -86,8 +86,8 @@ home-grid {
 }
 .page2-grid {
     display: grid;
-    grid-template-columns:repeat(10, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns:repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
 .cover-img {
     width: 100%;
@@ -101,21 +101,21 @@ home-grid {
     margin: 200px 0;
 }
 .page2 {
-    grid-column: 1/11;
-    grid-row: 1/8;
+    grid-column: 1/6;
+    grid-row: 1/6;
 }
 .page {
-    grid-column: 1/11;
-    grid-row: 6/9;
+    grid-column: 6/6;
+    grid-row: 4/6;
 }
 .intro {
-    grid-column: 8/11;
-    grid-row: 2/9;
+    grid-column: 6/6;
+    grid-row: 1/6;
     line-height: 1.5em;
 }
 .intro2 {
-    grid-column:7/11 ;
-    grid-row:7/8 ;
+    grid-column: 1/6;
+    grid-row: 5/6 ;
     line-height: 1.5em;
 }
 .msg h4 {
