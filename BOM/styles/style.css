@@ -49,9 +49,6 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
-head, body {
-    font-family: Arial, Helvetica, sans-serif;
-}
 .msg p {
     font-size: 1.5em;
     padding-bottom: 15px;
@@ -64,8 +61,9 @@ head, body {
 footer .social img{
     padding-top: 15px;
 }
-.note-card, .cover-card {
+.cover-card {
     margin: 200px 0;
+    width: 100%;
 }
 .cover-img {
     border: 10px solid #FFFFFF;
@@ -83,6 +81,9 @@ home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(4, 1fr);
+}
+#header-img {
+    width: 100%;
 }
 .page2-grid {
     display: grid;
