@@ -108,16 +108,13 @@ home-grid {
     justify-content: left;
     align-items: left;
 }
-.page, .page2 {
-    margin: 200px 0;
-}
 .page2 {
     grid-column: 1/6;
     grid-row: 1/6;
 }
 .page {
     grid-column: 6/6;
-    grid-row: 4/6;
+    grid-row: 4/7;
 }
 .intro {
     grid-column: 6/6;
@@ -126,7 +123,7 @@ home-grid {
 }
 .intro2 {
     grid-column: 1/6;
-    grid-row: 5/6 ;
+    grid-row: 5/7 ;
     line-height: 2em;
 }
 .msg h4 {
