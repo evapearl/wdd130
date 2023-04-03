@@ -106,7 +106,6 @@ home-grid {
 .box {
     display: grid;
     justify-content: left;
-    align-items: left;
 }
 .page2 {
     grid-column: 1/6;
